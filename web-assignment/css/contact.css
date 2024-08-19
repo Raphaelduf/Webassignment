@@ -1,0 +1,126 @@
+body {
+
+    background:  url('https://www.cnet.com/a/img/resize/0ef788248caeea67f4c80ade63a6e95f49bf3a2a/hub/2015/12/17/b5fed3aa-a35c-4dc9-ad71-fc17118ebcb1/lol.jpg?auto=webp&width=1920') top center;
+    background-size: 100% 100%;
+
+}
+
+.body,
+.contact-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: calc(100vh - 5rem);
+}
+
+input[type=text],
+input[type=number],
+textarea {
+    width: 45rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.contact-container {
+
+    background-color: white;
+    height: 20rem;
+    min-width: 50rem;
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+
+input[type=submit] {
+
+    background-color: white;
+    padding: 5px;
+}
+
+input[type=submit]:hover {
+
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.icons_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: container 4s 2s infinite;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.25rem;
+}
+
+
+@keyframes container {
+    from {
+        border-color: rgba(255, 0, 0, 0.495);
+        box-shadow: rgba(122, 122, 143, 0.2) 0px 7px 29px 0px;
+    }
+
+    to {
+        border-color: rgba(0, 38, 255, 0.353);
+        box-shadow: rgba(122, 122, 143, 0.2) 0px 7px 29px 0px;
+    }
+}
+
+#facebook {
+
+    font-size: 20px;
+    color: blue;
+}
+
+#instagram {
+
+    color: red;
+    font-size: 25px;
+}
+
+#linkedin {
+
+    font-size: 16px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 2px 2px;
+    color: white;
+    background-color: rgb(24, 62, 144);
+    height: 16px;
+}
+
+#linkedin,
+#instagram,
+#facebook {
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.error-input {
+
+    border-color: red;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+
+    color: red;
+}
+
+#info_label {
+
+    padding-left: 1rem;
+}
+
+#submit {
+    padding: 0.25rem 0.5rem;
+}

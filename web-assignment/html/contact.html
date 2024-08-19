@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <script></script>
+    <link href="../css/container.css" rel="stylesheet" />
+    <link href="../css/contact.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <nav class="header" id="header">
+        </nav>
+
+        <div class="body">
+
+            <div class="contact-container">
+                <form>
+                    <label for="name">Naam*:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Raphael Dufour"><br>
+                    <label for="phone">Telefoonummer*:</label><br>
+                    <input type="number" id="phone" name="phone" placeholder="0470352194" min="0"><br>
+                    <label for="message">Boodschap*:</label><br>
+                    <textarea id="message" name="message" placeholder="Laat ons jouw berichtje achter"
+                        value="message"></textarea><br>
+                    <input id="submit" type="button" value="Submit" onclick="onSubmit()">
+
+                    <label id="info_label"></label>
+                </form>
+                <div class="icons_container">
+                    <a id="linkedin" onclick="goToURLInNewtab('linkedin')"><i class="fa fa-linkedin"></i></a>
+                    <a id="facebook" onclick="goToURLInNewtab('facebook')"> <i class="fa fa-facebook"></i></a>
+                    <a id="instagram" onclick="goToURLInNewtab('instagram')"><i class="fa fa-instagram"></i></a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+<script src="../js/menu.js"></script>
+<script src="../js/contact.js"></script>
+
+</html>

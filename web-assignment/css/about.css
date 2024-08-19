@@ -1,0 +1,51 @@
+body {
+
+    background:  url('https://easyfairsassets.com/sites/23/2022/10/League-of-Legends.jpg') top center;
+    background-size: 100% 100%;
+
+}
+
+#about-me {
+
+    margin: 0.25rem;
+    padding: 2rem;
+    height: calc(100vh - 5rem);
+    text-transform: capitalize;
+    text-indent: 1rem;
+    background-color: white;
+
+}
+
+p[class="first"]::first-letter {
+    font-size: 2rem;
+    color: blue;
+}
+
+
+
+
+.hashtag {
+
+    color: blue;
+    padding: 0.25rem;
+    text-transform: lowercase;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgba(187, 255, 0, 0.15);
+    margin: 0.5rem 0.25rem 0.25rem 0rem;
+    border-radius: 5px;
+}
+
+.hashtag:hover {
+
+    color:red;
+    background-color: rgba(128, 0, 128, 0.194);
+    font-size: 1.05rem;
+}
+
+
+.hashtag-container {
+
+    margin-top: 2rem;
+    text-indent: 0.25rem;
+}
